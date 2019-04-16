@@ -1,0 +1,165 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+}
+
+blockquote {
+  border: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.border-top {
+  border-top: 1px solid white;
+}
+
+.btn.btn-black {
+  background-color: black;
+  color: white;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+.card.card-sm {
+  margin: 6% 4.16% 0 4.16%;
+}
+
+.chef-content {
+  margin: 10%;
+}
+
+.centralize {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  line-height: 2;
+  padding: 3em 3em 1em 3em;
+}
+footer.blockquote-footer::before {
+  visibility: hidden;
+}
+footer.blockquote-footer {
+  color: black;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+.gal-img:hover {
+  filter: none;
+}
+
+h2,
+h3 {
+  font-family: 'Merriweather', serif;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+
+hr {
+  border-top: 2px solid rgba(47, 46, 46, 1);
+  border-bottom: 2px solid rgba(47, 46, 46, 1);
+  height: 7px;
+  padding: 0;
+  width: 52px;
+}
+
+.icon {
+  color: black;
+  font-size: 2em;
+  letter-spacing: 10px;
+}
+
+.img-1 {
+  background-image: url(https://source.unsplash.com/Prfs32wh-o4);
+}
+.img-2 {
+  background-image: url(https://source.unsplash.com/1SPu0KT-Ejg);
+}
+.img-3 {
+  background-image: url(https://source.unsplash.com/V98W_4pCrVA);
+}
+
+.left {
+  margin-left: 0; 
+}
+
+.navbar {
+  margin: 0; 
+  padding: 20px;
+}
+.navbar-brand {
+  font-family: 'Tangerine', cursive;
+  font-size: 2em;  
+}
+
+.padding {
+  padding: 10% 0;
+}
+
+.parallax { 
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.no-padding,
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+} 
+
+#services {
+  padding-bottom: 7%;
+}
+
+.square {
+  border: 1px solid black;
+  border-radius: 0;
+  margin: 0 0 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.6em; 
+  }
+  .parallax {
+    background-attachment: local;
+  }
+} 
+@media only screen and (max-width: 992px) {
+  .navbar-default .navbar-nav > li > a {
+    padding-right: 10px;
+  }
+  body {
+    font-size: small;
+  }
+  blockquote {
+    font-size: small;
+  }
+} 
